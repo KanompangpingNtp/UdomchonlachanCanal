@@ -86,7 +86,7 @@ class AdminSeeder extends Seeder
 
         // User test
         User::updateOrCreate(
-            ['email' => 'testuser@example.com'],
+            ['email' => 'users@example.com'],
             [
                 'name' => 'ทดสอบ',
                 'password' => Hash::make('123456789'),
